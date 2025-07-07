@@ -88,12 +88,12 @@ header.hero {
   transform: translateY(20px);
   animation: fadeIn 1s forwards;
 }
-.fade-in.delay { animation-delay: 0.5s; }
-.fade-in.delay-2 { animation-delay: 1s; }
+.fade-in.delay { animation-delay: 1.5s; }
+.fade-in.delay-2 { animation-delay: 2s; }
 
 @keyframes fadeIn {
   to {
-    opacity: 1;
+    opacity: 1.5;
     transform: none;
   }
 }
